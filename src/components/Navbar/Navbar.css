@@ -1,0 +1,46 @@
+.navbar-container {
+  background-color: #5588cc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #5588cc;
+  box-shadow: 2px 2px 2px #728aaa;
+}
+.navbar-brand {
+  flex: 7;
+}
+
+.navbar-brand-name {
+  margin: auto 15px;
+  color: #ffffff;
+}
+.navbar-creator {
+  flex: 5;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.navbar-creator-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #5588cc;
+  margin: 3px auto;
+}
+
+.navbar-social-link {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.navbar-icons {
+  color: #5588cc;
+  margin: auto 5px;
+  font-size: 1.5em;
+}
